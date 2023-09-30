@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 REPO_NAME="cnnclassifier"
 AUTHOR_NAME="deftdev"
-SRC_REPO="cnnclassifier"
+SRC_REPO="CNNClassifier"
 AUTHOR_Email="devanshgupta79212346@gmail.com"
 
 setuptools.setup(
