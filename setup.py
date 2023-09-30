@@ -1,11 +1,14 @@
 import setuptools
 
-__version__="0.0.1"
+__version__ = '0.0.1'
+
+with open("README.md", "r", encoding="utf-8") as f:
+    long_description=f.read()
 
 REPO_NAME="cnnclassifier"
 AUTHOR_NAME="deftdev"
 SRC_REPO="cnnclassifier"
-AUTHOR_EMAIL="devanshgupta79212346@gmail.com"
+AUTHOR_Email="devanshgupta79212346@gmail.com"
 
 setuptools.setup(
         name=SRC_REPO,
